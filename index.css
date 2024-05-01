@@ -1,0 +1,40 @@
+
+.container{
+    width: 100vw;
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+    background: rgb(12, 9, 9);
+    display: flex;
+    flex-direction: column;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: #ffffff ;
+
+}
+.dados{
+    border: 3px solid #ffffff ;
+    height: auto;
+    width: auto;
+    display: flex;
+    flex-direction: column;
+    padding: 5px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+#botao{
+ color: aliceblue;
+ background: #343131;
+ padding: 10px;
+ margin-top: 5px;
+ font-size: 15px;
+ cursor: pointer;
+}
+#botao:hover{
+    background: #340000;
+}
+#botao:active{
+    box-shadow: #343131 4px 2px;
+}
+span{
+    color: red;
+}
